@@ -86,7 +86,7 @@ def parser():
     parser.add_argument('--eval_data', type=str, default='stsb',
                         help='which data is used as dev set for wiki training {stsb, sick}')
 
-    parser.add_argument('--lr', type=float, default=1e-3)
+    parser.add_argument('--lr', type=float, default=3e-4)
     parser.add_argument('--lr_decay', type=float, default=0.95)
     parser.add_argument('--grad_max_norm', type=float, default=0.)  #
     parser.add_argument('--dropout', type=float, default=0.3)
